@@ -13,7 +13,7 @@ from datetime import datetime
 end = datetime.now()
 start = datetime(end.year-20,end.month,end.day)
 
-google_data = yf.download(stock, start, end)
+google_data = yf.download(stock, start, end,  progress = False)
 
 model = load_model("Latest_stock_price_model.keras")
 st.subheader("Stock Data")
