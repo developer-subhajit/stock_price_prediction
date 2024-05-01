@@ -30,7 +30,7 @@ def main():
 
     date_range_string = date_range_picker(
         picker_type=PickerType.date.string_value,
-        start=-365,
+        start=-1000,
         end=0,
         unit=Unit.days.string_value,
         key="range_picker",
