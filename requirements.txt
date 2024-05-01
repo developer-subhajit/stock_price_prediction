@@ -6,3 +6,4 @@ yfinance
 matplotlib
 numpy
 tensorflow
+scikit-learn
