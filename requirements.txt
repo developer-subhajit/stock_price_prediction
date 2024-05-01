@@ -1,9 +1,11 @@
 altair
 pandas
-streamlit
+streamlit==1.31
 keras
 yfinance
 matplotlib
 numpy
 tensorflow
 scikit-learn
+streamlit_date_picker
+ipykernel
