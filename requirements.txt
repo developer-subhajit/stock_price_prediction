@@ -7,5 +7,5 @@ matplotlib
 numpy
 tensorflow
 scikit-learn
-streamlit_date_picker
+streamlit_date_picker==0.0.2b6
 ipykernel
